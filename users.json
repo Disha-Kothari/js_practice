@@ -1,0 +1,46 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "login": "Test1",
+      "type": "User",
+      "site_admin": true
+    },
+    {
+      "id": 2,
+      "login": "TestUser2",
+      "type": "User2",
+      "site_admin": false
+    },
+    {
+      "id": 3,
+      "login": "TestUser3",
+      "type": "User2",
+      "site_admin": false
+    },
+    {
+      "id": 4,
+      "login": "TestUser4",
+      "type": "User4",
+      "site_admin": false
+    },
+    {
+      "id": 5,
+      "login": "TestUser4",
+      "type": "User4",
+      "site_admin": false
+    },
+    {
+      "id": 6,
+      "login": "TestUser6",
+      "type": "User6",
+      "site_admin": false
+    },
+    {
+      "id": 7,
+      "login": "TestUser6",
+      "type": "User6",
+      "site_admin": false
+    }
+  ]
+}
