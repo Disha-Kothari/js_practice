@@ -98,5 +98,15 @@ const obj3 = JSON.parse(text, function (key, value) {
 });
 console.log(obj3.birth)
 
+const user = {
+  name:'Asabeneh',
+  title:'Programmer',
+  country:'Finland',
+  city:'Helsinki'
+}
 
-
+const copiedUser2 = {...user, title:'instructor'}
+console.log(copiedUser2)
+user.city="t"
+console.log(user)
+console.log(copiedUser2)

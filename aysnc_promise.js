@@ -37,6 +37,13 @@ function multiply(a,b){
     return a*b
 }
 
+function multiply2(a,b){
+    let promise = new Promise((resolve, reject) => {
+        setTimeout(() => resolve(a*b), 3000)
+      });
+      return promise
+}
+
 console.log("Pattern:- 1*2*3*4,result:-" + eval(1*2*3*4))
 try{
     //1*2*3*4
@@ -107,3 +114,17 @@ then();
 var p2 = p.then(function(data) {
     return data + " Good";
 })
+
+ //(1*2)+(3*4)+(4*5)
+async function calc(){
+    console.time("timer2")
+    let res1=await multiply2(1,2)
+    let res2=await multiply2(3,4)
+    let res3=await multiply2(4,5)
+
+    let finalResult=res1+res2+res3
+    console.log("aync-await result:",finalResult)
+    console.timeEnd("timer2")
+}
+
+calc()
