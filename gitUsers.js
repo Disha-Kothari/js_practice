@@ -63,5 +63,4 @@ async function getUsers(names) {
         .then((data)=>console.log(data))
        }
     console.timeEnd("timer2")
-   
 }
